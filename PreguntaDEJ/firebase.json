@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "pregunta-dej",
+    "public": "dist/PreguntaDEJ",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
