@@ -31,7 +31,7 @@ textarea {
   background-color: #FED000;
 }
 
-.right {
-  text-align: right;
-  margin-top: 5px;
+.center-boton {
+  text-align: center;
+  margin-top: 10px;
 }
