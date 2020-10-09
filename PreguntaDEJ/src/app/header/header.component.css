@@ -1,0 +1,11 @@
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-left: auto;
+}
+
+.logo {
+  max-width: 250px;
+  max-height: 250px;
+}

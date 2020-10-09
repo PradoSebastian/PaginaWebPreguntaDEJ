@@ -1,0 +1,27 @@
+<div class="contenedor border" [hidden] = '!oculto'>
+  <div class="container">
+    <form (ngSubmit) = 'responder()' #testForm="ngForm" ngNativeValidate>
+
+      <div class="center">
+        <label class="pregunta" for="pregunta">CUENTANOS CÓMO TE SIENTES </label>
+      </div>
+
+      <div class="respuesta border">
+        <div class="center">
+          <textarea class="form-control" [(ngModel)]="respuesta.contenido" name="pregunta" id="pregunta" required placeholder="Ingresa tu respuesta"></textarea>
+        </div>
+      </div>
+
+      <div class="right">
+        <button type="submit" class="btn btn-warning">Enviar respuesta</button>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+<div class="contenedor border" [hidden] = 'oculto'>
+  <div class="center">
+    <label class="pregunta">¡MUCHAS GRACIAS POR BRINDARNOS TU RESPUESTA! </label>
+  </div>
+</div>
