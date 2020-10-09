@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "paginawebpreguntadej-fe94b"
+  },
+  "targets": {
+    "paginawebpreguntadej-fe94b": {
+      "hosting": {
+        "PreguntaDEJ": [
+          "paginawebpreguntadej-fe94b"
+        ]
+      }
+    }
   }
 }
