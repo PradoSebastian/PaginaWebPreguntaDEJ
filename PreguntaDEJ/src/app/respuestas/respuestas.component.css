@@ -50,3 +50,11 @@
     width: 20%;
     height: 5%;
   }
+  .derecha{
+    float: right;
+    overflow: hidden;
+  }
+  .izquierda{
+    float: left;
+    overflow: hidden;
+  }

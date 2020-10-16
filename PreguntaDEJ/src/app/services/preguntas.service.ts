@@ -17,23 +17,8 @@ export class PreguntasService {
     return doc.set(param);
   }
 
-  consultarRespuestas(): Array<Respuesta> {
-
-    let respuestas = [];
-
-    this.firestore.collection('respuestas').snapshotChanges().subscribe(resp => {
-      respuestas = resp.map((e: any) => {
-        return {
-          id: e.payload.doc.data().id,
-          nombre: e.payload.doc.data().nombre,
-          fecha: e.payload.doc.data().fecha
-        }
-      });
-    }, error => {
-      console.log(error);
-    });
-
-    return respuestas;
+  consultarRespuestas(){
+    return this.firestore.collection('respuestas').valueChanges()
   }
 
 }
