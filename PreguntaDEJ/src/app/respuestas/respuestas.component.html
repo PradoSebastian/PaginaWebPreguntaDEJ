@@ -1,1 +1,29 @@
-<p>respuestas works!</p>
+<div class = "contenedor border">
+<div class="container" id="border">
+
+    <div class="center">
+        <div class="center">
+            <label class="pregunta">RESPUESTAS</label>
+        </div>
+    </div>
+  
+    <table class="table table-bordered wtable  respuesta">
+        <thead>
+            <tr>
+                <th>Contenido</th>
+                <th>Fecha</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let resp of respuestas">
+                <td class="big">
+                    <p>{{resp.contenido}}</p>
+                </td>
+                <td class= "small">
+                    <p> {{resp.fecha}}</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>

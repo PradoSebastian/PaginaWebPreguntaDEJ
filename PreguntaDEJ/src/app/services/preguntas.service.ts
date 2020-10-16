@@ -17,7 +17,7 @@ export class PreguntasService {
     return doc.set(param);
   }
 
-  consultarRespuestas(respuesta: Respuesta): Array<Respuesta> {
+  consultarRespuestas(): Array<Respuesta> {
 
     let respuestas = [];
 

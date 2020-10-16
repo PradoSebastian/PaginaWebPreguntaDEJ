@@ -1,0 +1,52 @@
+.contenedor {
+    background-color:#004D93;
+  }
+  
+  .border {
+    border-radius: 30px;padding: 30px;margin-top: 3%;
+  }
+  
+  .center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+  }
+  
+  .pregunta {
+    color: black;
+    font-size: x-large;
+  }
+  
+  .respuesta {
+    background-color: white;
+    color: black;
+  }
+  
+  textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  .btn {
+    background-color: #FED000;
+  }
+  
+  .center-boton {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .colorLetra{
+      color:black;
+  }
+  p{
+      color: black;
+  }
+  .big {
+    width: 80%;
+    height: 5%;
+  }
+  .small {
+    width: 20%;
+    height: 5%;
+  }
